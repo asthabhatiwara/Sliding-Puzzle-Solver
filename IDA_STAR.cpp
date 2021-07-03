@@ -66,3 +66,6 @@ void IDA_star(Node* src){
     }
 
 }
+
+//*  time complexity of ida* == o(b^d) where b is branching factor and d is max depth
+//*  space complexity of ida* == o(b*d)
