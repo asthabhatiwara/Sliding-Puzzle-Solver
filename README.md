@@ -7,4 +7,5 @@ It stores the Current State , Goal State , Current Level, Parent State, total co
 And a backtrack function to print the valid moves/steps which are involved in solving the given state of sliding puzzle.
 
 ## Puzzle_solver
-This is the main function for solvig sliding puzzle. It takes the input grid(N) as a Initial state and solves the game state using BFS, A* and IDA* search Algorithm.
+This is the main function for solvig sliding puzzle.<br/>
+It takes the input grid(N) as a Initial state and solves the game state using BFS, A* and IDA* search Algorithm.
