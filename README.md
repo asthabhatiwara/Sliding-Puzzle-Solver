@@ -12,6 +12,6 @@ It takes the input grid(N) as a Initial state and solves the game state using BF
 
 ## Output
 Initial State
-[ 3 8 5 ]
-[ 0 7 1 ]
-[ 2 6 4 ]
+[ 3 8 5 ]<br/>
+[ 0 7 1 ]<br/>
+[ 2 6 4 ]<br/>
