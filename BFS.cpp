@@ -1,3 +1,8 @@
+/****
+ *  BFS on Sliding Puzzle
+ ***/
+
+
 void bfs(Node* src){
 
     vector<int> dest;
@@ -69,3 +74,8 @@ void bfs(Node* src){
 
     }
 }
+
+/****
+ *  time complexity of bfs == o(b^d)
+ *  space complexity of bfs == o(b^d)
+ ***/
