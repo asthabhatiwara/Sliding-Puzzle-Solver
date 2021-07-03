@@ -1,3 +1,8 @@
+/****
+ *  A_star algorithm on Sliding Puzzle
+ ***/
+
+
 struct prioritize
 {
     bool operator()(const Node* p1, const Node* p2) const
@@ -75,3 +80,8 @@ void A_Star(Node* src){
 
     }
 }
+
+/*** 
+  * time complexity of A*==o(b^d)
+  * space complexity of A*==o(b^d)
+/***
