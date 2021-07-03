@@ -11,7 +11,7 @@ This is the main function for solvig sliding puzzle.<br/>
 It takes the input grid(N) as a Initial state and solves the game state using BFS, A* and IDA* search Algorithm.
 
 ## Output
-Initial State
+Initial State<br/>
 [ 3 8 5 ]<br/>
 [ 0 7 1 ]<br/>
 [ 2 6 4 ]<br/>
