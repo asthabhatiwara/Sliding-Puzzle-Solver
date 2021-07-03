@@ -9,3 +9,9 @@ And a backtrack function to print the valid moves/steps which are involved in so
 ## Puzzle_solver
 This is the main function for solvig sliding puzzle.<br/>
 It takes the input grid(N) as a Initial state and solves the game state using BFS, A* and IDA* search Algorithm.
+
+## Output
+Initial State
+[ 3 8 5 ]
+[ 0 7 1 ]
+[ 2 6 4 ]
