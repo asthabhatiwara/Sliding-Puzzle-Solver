@@ -1,3 +1,8 @@
+/****
+ *  IDA* Algorithm on Sliding Puzzle
+ ***/
+
+
 int IDDFS(Node *cur , int level , int threshold){
 
     int f = level + heuristic_manhattan(cur->board);
@@ -67,5 +72,7 @@ void IDA_star(Node* src){
 
 }
 
-//*  time complexity of ida* == o(b^d) where b is branching factor and d is max depth
-//*  space complexity of ida* == o(b*d)
+/****
+ *  time complexity of ida* == o(b^d) where b is branching factor and d is max depth
+ *  space complexity of ida* == o(b*d)
+ ***/
