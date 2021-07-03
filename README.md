@@ -3,7 +3,7 @@ Implementation of IDA*, A-star and BFS Algorithms to solve a NxN grid sliding pu
 
 ## puzzle_state.cpp
 This file contains a struct class which describes any puzzle state in the search space.<br/>
-It stores the Current State as a list, Goal State as a list, Current Level, Parent State, and functions to calculate heuristic (both Manhattan and misplaced tiles).<br/>
+It stores the Current State , Goal State , Current Level, Parent State, total cost and functions to calculate heuristic (both Manhattan and misplaced tiles).<br/>
 And a backtrack function to print the valid moves/steps which are involved in solving the given state of sliding puzzle.
 
 ## Puzzle_solver
