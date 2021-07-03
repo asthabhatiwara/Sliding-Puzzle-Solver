@@ -8,7 +8,7 @@ using lli =  int long long;
 const lli tot = 1e5+100;
 const lli mod = 1e9+7;
 
-const int n = 3;
+const int n=4;
 int m;
 
 int moves[10007][n][n];
@@ -28,6 +28,7 @@ int main(){
     clock_t start  = clock();
 
     int x1,y1;
+   //cin>>n;  // for any n*n sliding puzzle 
 
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
